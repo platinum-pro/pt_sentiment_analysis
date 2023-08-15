@@ -2,7 +2,7 @@ import pandas as pd
 from textblob import TextBlob
 
 # Load the CSV file into a DataFrame
-df = pd.read_excel("C:/Users/siu856309481/Downloads/UNIV 101 - Midterm Check-In(1-1552).xlsx", engine='openpyxl')
+df = pd.read_excel("filepath", engine='openpyxl')
 
 def get_sentiment(text):
     blob = TextBlob(text)
