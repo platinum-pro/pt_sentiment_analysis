@@ -1,3 +1,9 @@
+import pandas as pd
+from textblob import TextBlob
+
+# Load the file into a DataFrame
+df = pd.read_excel("filepath", engine='openpyxl')
+
 def compute_sentiment(column):
     # Convert all entries to strings
     column = column.astype(str)
