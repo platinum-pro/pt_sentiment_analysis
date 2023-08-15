@@ -24,4 +24,4 @@ print(df[['What have you gained from this course?', 'Polarity', 'Subjectivity']]
 
 
 # Save the results back to a new CSV file
-df.to_csv('C:/Users/siu856309481/Downloads/UNIV 101 sentiments.csv', index=False)
+df.to_csv('filepath.csv', index=False)
